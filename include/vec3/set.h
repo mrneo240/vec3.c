@@ -12,7 +12,7 @@
  * @param {Number} z Z component
  * @returns {vec3} out
  */
-float *vec3_set(vec3 out, float x, float y, float z) {
+vec3 vec3_set(vec3 out, float x, float y, float z) {
     out[0] = x;
     out[1] = y;
     out[2] = z;

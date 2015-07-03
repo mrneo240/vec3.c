@@ -12,7 +12,7 @@
   ],
   "dependencies": {},
   "scripts": {
-    "test" : "./test/build.sh"
+    "test": "./test/build.sh"
   },
   "keywords": [
     "gl-matrix",
@@ -64,5 +64,8 @@
   "homepage": "https://github.com/tmpvar/vec3.c",
   "bugs": {
     "url": "https://github.com/tmpvar/vec3.c/issues"
+  },
+  "devDependencies": {
+    "cmake-js": "^1.0.1"
   }
 }
