@@ -28,7 +28,7 @@ int main() {
 
 compiled with `gcc main.c -o main -Inode_modules/vec3.c/include`
 
-### with cmake.js
+### with cmake
 
 __CMakeLists.txt
 ```
