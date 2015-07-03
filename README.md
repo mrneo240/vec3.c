@@ -30,7 +30,7 @@ compiled with `gcc main.c -o main -Inode_modules/vec3.c/include`
 
 ### with cmake
 
-__CMakeLists.txt
+__CMakeLists.txt__
 ```
 cmake_minimum_required(VERSION 3.2)
 project (vec3-test)
