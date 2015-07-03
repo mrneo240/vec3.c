@@ -1,22 +1,18 @@
 {
-  "name": "gl-vec3",
+  "name": "vec3.c",
   "version": "1.0.3",
-  "description": "gl-matrix's vec3, split into smaller pieces",
-  "main": "index.js",
+  "description": "gl-matrix's vec3, split into smaller pieces, converted to c header files",
   "license": {
     "type": "zlib",
-    "url": "http://github.com/stackgl/gl-vec3/blob/master/LICENSE.md"
+    "url": "http://github.com/tmpvar/vec3.c/blob/master/LICENSE.md"
   },
   "contributors": [
     "Brandon Jones <tojiro@gmail.com>",
     "Colin MacKenzie IV <sinisterchipmunk@gmail.com>"
   ],
   "dependencies": {},
-  "devDependencies": {
-    "dox": "git://github.com/hughsk/dox#api-context"
-  },
   "scripts": {
-    "get-docs": "cat *.js | dox --api"
+    "test" : "./test/build.sh"
   },
   "keywords": [
     "gl-matrix",
@@ -63,10 +59,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/stackgl/gl-vec3.git"
+    "url": "git://github.com/tmpvar/vec3.c.git"
   },
-  "homepage": "https://github.com/stackgl/gl-vec3",
+  "homepage": "https://github.com/tmpvar/vec3.c",
   "bugs": {
-    "url": "https://github.com/stackgl/gl-vec3/issues"
+    "url": "https://github.com/tmpvar/vec3.c/issues"
   }
 }
