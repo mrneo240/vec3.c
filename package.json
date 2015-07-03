@@ -65,7 +65,5 @@
   "bugs": {
     "url": "https://github.com/tmpvar/vec3.c/issues"
   },
-  "devDependencies": {
-    "cmake-js": "^1.0.1"
-  }
+  "devDependencies": {}
 }
