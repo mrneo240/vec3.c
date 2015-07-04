@@ -14,7 +14,6 @@ package contains `glMatrix.vec3`.
 
 __main.c__
 ```c
-#include <vec3/type.h>
 #include <vec3/create.h>
 #include <vec3/set.h>
 #include <stdio.h>
